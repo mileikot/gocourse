@@ -4,7 +4,7 @@ import "fmt"
 
 var middleName = "Cane"
 
-func main() {
+func variable() {
 	// var age int
 	// var name string = "John"
 	// var name1 = "Doe"
