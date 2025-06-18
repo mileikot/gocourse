@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-func main() {
+func arithmeticOperators() {
 	//Variable declaration
 	var a, b int = 10, 3
 	var result int
@@ -25,7 +25,7 @@ func main() {
 	result = a % b
 	fmt.Println("Remainder:", result)
 
-	const p float64 = 22/7.0
+	const p float64 = 22 / 7.0
 	fmt.Println("Constant value of p:", p)
 
 	//Overflow with signed integers

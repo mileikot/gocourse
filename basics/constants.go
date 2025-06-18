@@ -3,7 +3,7 @@ package basics
 const pi = 3.14159
 const GRAVITY = 9.81
 
-func main() {
+func constants() {
 	const days int = 7
 
 	const (
@@ -13,6 +13,6 @@ func main() {
 		thursday  int = 4
 	)
 
-	name := "John"
+	// name := "John"
 
 }

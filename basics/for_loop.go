@@ -1,8 +1,8 @@
-package main
+package basics
 
 import "fmt"
 
-func main() {
+func forLoop() {
 
 	//Simple for loop
 	// for i := 1; i<=5; i++ {
@@ -41,7 +41,7 @@ func main() {
 	// 	fmt.Println() // New line after each row
 	// }
 
-	for i:= range 10 {
+	for i := range 10 {
 		i++
 		fmt.Println(10 - i)
 	}
