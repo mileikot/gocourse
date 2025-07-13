@@ -67,11 +67,11 @@ func mapsFunc() {
 
 	var myMap4 map[string]string
 
-	if myMap4 == nil {
-		fmt.Println("myMap4 is nil")
-	} else {
-		fmt.Println("myMap4 is not nil")
-	}
+	// if myMap4 == nil {
+	// 	fmt.Println("myMap4 is nil")
+	// } else {
+	// 	fmt.Println("myMap4 is not nil")
+	// }
 
 	val := myMap4["nonExistentKey"]
 	fmt.Println("Value for 'nonExistentKey':", val)
